@@ -85,9 +85,11 @@ module.exports = {
     "polyfills": [
       "./src/polyfills.ts"
     ],
+    /*
     "scripts": [
-      //"script-loader!./node_modules/jquery/dist/jquery.js",
+      "script-loader!./node_modules/jquery/dist/jquery.js",
     ],
+    */
     "styles": styleUrls
   },
   "output": {

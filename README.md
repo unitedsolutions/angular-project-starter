@@ -8,9 +8,8 @@ cases require dynamic symbol resolution.  When the latter are part of the code
 that is built with `angular-cli`, the following error is likely to to be evoked:
 
 ```
-Error encountered resolving symbol values statically. 
-Reference to a non-exported class SomeModule. Consider 
-exporting the class (position 13:1 in the original .ts 
+Error encountered resolving symbol values statically. Reference to a non-exported 
+class SomeModule. Consider exporting the class (position 13:1 in the original .ts 
 file).
 ```
 
