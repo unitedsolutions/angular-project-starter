@@ -60,8 +60,6 @@ const postcssPlugins = function () {
   ].concat(minimizeCss ? [cssnano(minimizeOptions)] : []);
 };
 
-
-
 module.exports = {
   "resolve": {
     "extensions": [
@@ -88,9 +86,7 @@ module.exports = {
       "./src/polyfills.ts"
     ],
     "scripts": [
-      "script-loader!./node_modules/jquery/dist/jquery.js",
-      "script-loader!./node_modules/tether/dist/js/tether.js",
-      "script-loader!./node_modules/bootstrap/dist/js/bootstrap.js"
+      //"script-loader!./node_modules/jquery/dist/jquery.js",
     ],
     "styles": styleUrls
   },

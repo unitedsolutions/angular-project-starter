@@ -1,6 +1,6 @@
-import {NgModule}            from '@angular/core'; 
-import {BrowserModule}       from '@angular/platform-browser';
-import {MainComponent}       from './main/main.component';
+import {NgModule}      from '@angular/core'; 
+import {BrowserModule} from '@angular/platform-browser';
+import {MainComponent} from './main/main.component';
 
 @NgModule({
   imports: [
