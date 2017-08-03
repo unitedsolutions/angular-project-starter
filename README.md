@@ -26,5 +26,4 @@ compliation.  The starter was synthesized from `angular-cli`'s ejected
 The starter's directory structure mimics the layout built by `angular-cli` and 
 the latter may still be used to generate modules, components, etc.  For instance,
 running a command `ng g component main/some-component` would still work.  To
-build a project, use, modify, or add commands under `scripts` within 
-`package.json`.
+build a project, use `scripts` commands within `package.json`.
